@@ -219,6 +219,31 @@ p.copyright {
     overflow: hidden;
 }
 
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .panel .profile{
+        height: 280px;
+        background-color: #f1f1f4;
+        overflow: hidden;
+    }
+    .banner {
+        min-height: 100vh;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .panel .profile{
+        height: 280px;
+        background-color: #f1f1f4;
+        overflow: hidden;
+    }
+    .banner {
+        padding-top: 50vh;
+        min-height: 100vh;
+    }
+}
+
 .panel .panel-heading {
   background-color:#ffffff;
   font-weight:700;
