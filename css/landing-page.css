@@ -236,3 +236,7 @@ p.copyright {
 .panel .panel-thumbnail {
   padding:0;
 }
+
+.grey{
+    background-color: #f1f1f4;
+}
