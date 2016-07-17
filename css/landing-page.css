@@ -212,6 +212,7 @@ p.copyright {
 .panel .profile{
     height: 200px;
     background-color: #f1f1f4;
+    overflow: hidden;
 }
 
 .panel .panel-heading {
