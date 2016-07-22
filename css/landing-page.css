@@ -242,6 +242,9 @@ p.copyright {
         padding-top: 50vh;
         min-height: 100vh;
     }
+    .section-left{
+        border-right: none;
+    }
 }
 
 .panel .panel-heading {
@@ -269,4 +272,17 @@ p.copyright {
 
 .grey{
     background-color: #f1f1f4;
+}
+
+.freebirdHeaderMast {
+    background-color: transparent;
+}
+
+.section-right{
+    padding:20px;
+}
+
+.section-left{
+    padding:20px;
+    border-right: 2px dotted #e7e7e7;
 }
