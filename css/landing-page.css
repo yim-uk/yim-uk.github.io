@@ -27,6 +27,10 @@ h6 {
     }
 }
 
+.white{
+    color: white !important;
+}
+
 .saffron{
     color: #FF9933; 
 }
